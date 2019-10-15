@@ -1,4 +1,4 @@
-# 공학전산응용 강의노트
+## 공학전산응용 강의노트
 
 [Chapter 1: Computing with Python](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/ch01_code.ipynb)
 
