@@ -6,4 +6,4 @@
 
 [Chpater 3: Symbolic computing](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/ch03_code.ipynb)
 
-[Chpater 4: Chapter 4: Plotting and visualization](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/ch04_code.ipynb)
+[Chpater 4: Plotting and visualization](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/ch04_code.ipynb)
