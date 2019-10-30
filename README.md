@@ -9,3 +9,5 @@
 [Chapter 4: Plotting and visualization](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/ch04_code.ipynb)
 
 [Chapter 5: Equation solving](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/ch05_code.ipynb)
+
+[Chapter 6: Optimization](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/ch06_code.ipynb)
