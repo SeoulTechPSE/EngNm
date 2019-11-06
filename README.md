@@ -12,4 +12,4 @@
 
 [Chapter 6: Optimization](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/ch06_code.ipynb)
 
-[Chapter 7: Interpretation](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/ch07_code.ipynb)
+[Chapter 7: Interpolation](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/ch07_code.ipynb)
