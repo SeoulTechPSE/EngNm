@@ -13,3 +13,7 @@
 [Chapter 6: Optimization](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/ch06_code.ipynb)
 
 [Chapter 7: Interpolation](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/ch07_code.ipynb)
+
+[Chapter 8: Integration](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/ch08_code.ipynb)
+
+[Chapter 9: Ordinary differential equations](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/ch09_code.ipynb)
