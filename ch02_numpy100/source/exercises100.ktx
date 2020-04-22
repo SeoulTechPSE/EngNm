@@ -243,10 +243,10 @@ Create a custom dtype that describes a color as four unsigned bytes (RGBA) (★�
 hint: np.dtype
 
 < a23
-color = np.dtype([("r", np.ubyte, 1),
-                  ("g", np.ubyte, 1),
-                  ("b", np.ubyte, 1),
-                  ("a", np.ubyte, 1)])
+color = np.dtype([("r", np.ubyte),
+                  ("g", np.ubyte),
+                  ("b", np.ubyte),
+                  ("a", np.ubyte)])
 
 < q24
 Multiply a 5x3 matrix by a 3x2 matrix (real matrix product) (★☆☆)
@@ -618,11 +618,11 @@ Create a structured array representing a position (x,y) and a color (r,g,b) (★
 hint: dtype
 
 < a51
-Z = np.zeros(10, [ ('position', [ ('x', float, 1),
-                                  ('y', float, 1)]),
-                   ('color',    [ ('r', float, 1),
-                                  ('g', float, 1),
-                                  ('b', float, 1)])])
+Z = np.zeros(10, [ ('position', [ ('x', float),
+                                  ('y', float)]),
+                   ('color',    [ ('r', float),
+                                  ('g', float),
+                                  ('b', float)])])
 print(Z)
 
 < q52
@@ -1084,23 +1084,23 @@ shape = (5,5)
 fill  = 0
 position = (1,1)
 
-R = np.ones(shape, dtype=Z.dtype)*fill
+R  = np.ones(shape, dtype=Z.dtype)*fill
 P  = np.array(list(position)).astype(int)
 Rs = np.array(list(R.shape)).astype(int)
 Zs = np.array(list(Z.shape)).astype(int)
 
 R_start = np.zeros((len(shape),)).astype(int)
 R_stop  = np.array(list(shape)).astype(int)
-Z_start = (P-Rs//2)
-Z_stop  = (P+Rs//2)+Rs%2
+Z_start = (P -Rs //2)
+Z_stop  = (P +Rs //2) +Rs %2
 
-R_start = (R_start - np.minimum(Z_start,0)).tolist()
-Z_start = (np.maximum(Z_start,0)).tolist()
-R_stop = np.maximum(R_start, (R_stop - np.maximum(Z_stop-Zs,0))).tolist()
-Z_stop = (np.minimum(Z_stop,Zs)).tolist()
+R_start = (R_start -np.minimum(Z_start,0)).tolist()
+Z_start = (np.maximum(Z_start, 0)).tolist()
+R_stop = np.maximum(R_start, (R_stop -np.maximum(Z_stop -Zs, 0))).tolist()
+Z_stop = (np.minimum(Z_stop, Zs)).tolist()
 
-r = [slice(start,stop) for start,stop in zip(R_start,R_stop)]
-z = [slice(start,stop) for start,stop in zip(Z_start,Z_stop)]
+r = tuple(slice(start,stop) for start,stop in zip(R_start,R_stop))
+z = tuple(slice(start,stop) for start,stop in zip(Z_start,Z_stop))
 R[r] = Z[z]
 print(Z)
 print(R)
