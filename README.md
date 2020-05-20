@@ -16,4 +16,4 @@
 
 [Chapter 8: Integration](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/ch08_code.ipynb)
 
-[Chapter 9: Ordinary differential equations](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/ch09.ipynb)
+[Chapter 9: Ordinary differential equations](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/ch09_code.ipynb)
