@@ -1,0 +1,10 @@
+1. graphviz-2.38을 설치
+  
+    but your system does not know where. 
+    So add the directory where neato.exe is contained in to your PATH environment variable. 
+   
+    On Win10, this can be done with 
+
+2. [시작] -> [설정] -> [계정의 환경 변수 편집] 
+   -> select Path in the upper window -> [편집] -> [새로 만들기] 
+   -> C:\Program Files (x86)\Graphviz2.38\bin\ -> [확인] -> [확인]
