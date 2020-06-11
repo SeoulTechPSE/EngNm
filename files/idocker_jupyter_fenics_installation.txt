@@ -1,0 +1,24 @@
+
+===> Windows Terminal:
+
+docker run --name jupyter_fenics -w /home/fenics -v /mnt/c/Users/jesuskyr/notebooks:/home/fenics/shared -d 
+  -p 127.0.0.1:8000:8888 quay.io/fenicsproject/stable 'jupyter-notebook --ip=0.0.0.0'
+
+docker logs --tail 3 jupyter_fenics
+
+===> Web Browser: localhost:8000 ===> jupyter terminal
+
+jupyter notebook --generate-config
+jupyter notebook password
+
+===> Windows Terminal:
+
+docker stop jupyter_fenics
+docker start jupyter_fenics
+
+------------------------------ RISE 설치 (jupyter terminal)
+sudo pip install --upgrade pip
+sudo pip3 install jupyter_contrib_nbextensions
+sudo jupyter contrib nbextension install
+sudo pip install RISE
+-------------------------------
