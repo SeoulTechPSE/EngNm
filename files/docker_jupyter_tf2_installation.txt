@@ -1,0 +1,27 @@
+
+docker pull tensorflow/tensorflow:latest-jupyter 
+
+
+
+===> Windows Terminal:
+
+docker run --name jupyter_tf2 -w /tf -v /mnt/c/Users/jesuskyr/notebooks:/tf -p 127.0.0.1:8000:8888  -itd tensorflow/tensorflow:latest-jupyter
+
+docker logs --tail 3 jupyter_tf2
+
+===> Web Browser: localhost:8000 ===> jupyter terminal
+
+jupyter notebook --generate-config
+jupyter notebook password
+
+===> Windows Terminal:
+
+docker stop jupyter_fenics
+docker start jupyter_fenics
+
+------------------------------ RISE 설치 (jupyter terminal)
+pip install --upgrade pip
+pip3 install jupyter_contrib_nbextensions
+jupyter contrib nbextension install
+pip install RISE
+-------------------------------
