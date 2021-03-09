@@ -8,3 +8,4 @@
 * [Chapter 06. 리스트와 문자열의 함수들](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_basic/ch06.ipynb)
 * [Chapter 07. True, False 그리고 if와 그 형제들](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_basic/ch07.ipynb)
 * [Chapter 08. for 루프와 while 루프](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_basic/ch08.ipynb)
+* [Chapter 09. 튜플과 레인지](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_basic/ch09.ipynb)
