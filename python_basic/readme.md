@@ -9,3 +9,8 @@
 * [Chapter 07. True, False 그리고 if와 그 형제들](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_basic/ch07.ipynb)
 * [Chapter 08. for 루프와 while 루프](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_basic/ch08.ipynb)
 * [Chapter 09. 튜플과 레인지](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_basic/ch09.ipynb)
+* [Chapter 10. 함수에 대한 추가적인 설명들](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_basic/ch10.ipynb)
+* [Chapter 11. 모듈의 이해 그리고 수학 모듈 이용하기](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_basic/ch11.ipynb)
+* [Chapter 12. 딕션너리](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_basic/ch12.ipynb)
+* [Chapter 13. 클래스와 객체](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_basic/ch13.ipynb)
+* [Chapter 14. 예외처리](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_basic/ch14.ipynb)
