@@ -1,4 +1,4 @@
-## 파이썬 - 기초편
+## 파이썬 - 기초편 (참고문헌: 윤성우의 열혈 파이썬)
 
 * [Chapter 01. 파이썬에게 질문하기](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_basic/ch01.ipynb)
 * [Chapter 02. 간단한 함수 만들기](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_basic/ch02.ipynb)
@@ -7,3 +7,4 @@
 * [Chapter 05. 리스트와 문자열](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_basic/ch05.ipynb)
 * [Chapter 06. 리스트와 문자열의 함수들](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_basic/ch06.ipynb)
 * [Chapter 07. True, False 그리고 if와 그 형제들](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_basic/ch07.ipynb)
+* [Chapter 08. for 루프와 while 루프](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_basic/ch08.ipynb)
