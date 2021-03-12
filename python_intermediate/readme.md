@@ -60,14 +60,14 @@
 
 * [**Story 28-30**](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_intermediate/story_28_30.ipynb)
 
-  * 정보은닉과 __dict__
-  * __slots__의 효과
+  * 정보은닉과 `__dict__`
+  * `__slots__`의 효과
 
 * [**Story 31-34**](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_intermediate/story_31_34.ipynb)
 
   * 네스티드 함수와 클로저
   * 데코레이터
   * 클래스 메소드와 static 메소드
-  * __name__ & __main__
+  * `__name__` & `__main__`
  
 
