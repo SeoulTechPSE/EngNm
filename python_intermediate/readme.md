@@ -1,5 +1,7 @@
 ## 파이썬 - 중급편 (참고문헌: 윤성우의 열혈 파이썬)
 
+* [**Story 00**](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_intermediate/story_00.ipynb)
+  * 기초편에서 언급하지 않은 기초들
 
 * [**Story 01-03**](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_intermediate/story_01_03.ipynb)
   
