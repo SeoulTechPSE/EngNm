@@ -73,3 +73,6 @@
   * `__name__` & `__main__`
  
 
+* [**Story 35**](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/python_intermediate/story_35.ipynb)
+
+  * 컨텍스트 메니저
