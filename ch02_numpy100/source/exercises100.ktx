@@ -11,7 +11,7 @@ import numpy as np
 Print the numpy version and the configuration (★☆☆)
 
 < h2
-hint: np.__version__, np.show_config)
+hint: np.__version__, np.show_config()
 
 < a2
 print(np.__version__)
@@ -24,8 +24,8 @@ Create a null vector of size 10 (★☆☆)
 hint: np.zeros
 
 < a3
-Z = np.zeros(10)
-print(Z)
+z = np.zeros(10)
+print(z)
 
 < q4
 How to find the memory size of any array (★☆☆)
@@ -34,8 +34,8 @@ How to find the memory size of any array (★☆☆)
 hint: size, itemsize
 
 < a4
-Z = np.zeros((10,10))
-print("%d bytes" % (Z.size * Z.itemsize))
+z = np.zeros((10, 10))
+print(f"{z.size * z.itemsize} bytes') or print(f'{z.nbytes} bytes')
 
 < q5
 How to get the documentation of the numpy add function from the command line? (★☆☆)
@@ -310,12 +310,11 @@ Z<Z>Z
 No hints provided...
 
 < a27
-Z**Z
-2 << Z >> 2
-Z <- Z
-1j*Z
-Z/1/1
-Z<Z>Z
+z**z
+2 << z >> 2
+z <- z
+1j*z
+z/1j
 
 < q28
 What are the result of the following expressions?
