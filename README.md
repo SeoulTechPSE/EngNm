@@ -24,14 +24,6 @@
 
 [Chapter 11: Partial differential equations](https://colab.research.google.com/github/SeoulTechPSE/EngNm/blob/master/ch11_code.ipynb)
 
-
-
-## 파이썬 공부
-
-[파이썬 초급](https://github.com/SeoulTechPSE/EngNm/blob/master/python_basic/readme.md)
-
-[파이썬 중급](https://github.com/SeoulTechPSE/EngNm/blob/master/python_intermediate/readme.md)
-
 ## Numpy100
 
 [넘파이 퀴즈](https://github.com/SeoulTechPSE/EngNm/tree/master/ch02_numpy100)
